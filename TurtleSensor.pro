@@ -1,4 +1,4 @@
-update=Sat 17 Oct 2015 04:55:51 PM PDT
+update=Saturday, March 19, 2016 'PMt' 05:48:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=libraries/SI7021
+LibName31=libraries/W25Q32FVSSIG
