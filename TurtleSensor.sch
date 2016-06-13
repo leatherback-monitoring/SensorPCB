@@ -378,7 +378,7 @@ U 1 1 56DB7438
 P 5550 6000
 F 0 "J2" H 5300 6600 60  0000 C CNN
 F 1 "FTDIConnector" H 5350 5350 60  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x06" H 5550 5650 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 5550 5650 60  0001 C CNN
 F 3 "" H 5550 5650 60  0000 C CNN
 	1    5550 6000
 	1    0    0    -1  
