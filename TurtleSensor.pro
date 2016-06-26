@@ -1,4 +1,4 @@
-update=Sunday, April 17, 2016 'AMt' 10:31:53 AM
+update=Monday, June 13, 2016 'PMt' 03:16:48 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=libraries;libraries/footprints.pretty
+LibDir=libraries;libraries/footprints.pretty;libraries/KiCad;libraries/KiCad/Universal.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
