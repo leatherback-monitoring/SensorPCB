@@ -51,7 +51,7 @@ U 1 1 5622E668
 P 1100 2750
 F 0 "BT1" H 1200 2800 50  0000 L CNN
 F 1 "Battery" H 1200 2700 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" V 1100 2790 60  0001 C CNN
+F 2 "footprints:2477Holder" V 1100 2790 60  0001 C CNN
 F 3 "" V 1100 2790 60  0000 C CNN
 	1    1100 2750
 	1    0    0    -1  

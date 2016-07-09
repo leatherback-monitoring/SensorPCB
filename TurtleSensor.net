@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/erik/ownCloud/Projects/TurtleStuff/StuffToPrintAndCut/Othermill/SensorPCB/TurtleSensor.sch)
-    (date "Monday, June 20, 2016 'PMt' 09:00:28 PM")
+    (date "Tuesday, July 05, 2016 'PMt' 09:56:32 PM")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref BT1)
       (value Battery)
-      (footprint Socket_Strips:Socket_Strip_Straight_1x02)
+      (footprint footprints:2477Holder)
       (libsource (lib device) (part Battery))
       (sheetpath (names /) (tstamps /))
       (tstamp 5622E668))
