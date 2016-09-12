@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /Users/erik/ownCloud/Projects/TurtleStuff/StuffToPrintAndCut/Othermill/SensorPCB/TurtleSensor.sch)
-    (date "Tuesday, July 05, 2016 'PMt' 09:56:32 PM")
-    (tool "Eeschema 4.0.1-stable")
+    (source /Users/erik/ownCloud/Projects/TurtleStuff/SensorPCB/TurtleSensor.sch)
+    (date "Tuesday, August 02, 2016 'PMt' 10:17:30 PM")
+    (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -260,9 +260,9 @@
     (library (logical atmel)
       (uri "/Library/Application Support/kicad/library/atmel.lib"))
     (library (logical SI7021)
-      (uri /Users/erik/ownCloud/Projects/TurtleStuff/StuffToPrintAndCut/Othermill/SensorPCB/libraries/SI7021.lib))
+      (uri /Users/erik/ownCloud/Projects/TurtleStuff/SensorPCB/libraries/SI7021.lib))
     (library (logical TurtleSensor-cache)
-      (uri /Users/erik/ownCloud/Projects/TurtleStuff/StuffToPrintAndCut/Othermill/SensorPCB/TurtleSensor-cache.lib)))
+      (uri /Users/erik/ownCloud/Projects/TurtleStuff/SensorPCB/TurtleSensor-cache.lib)))
   (nets
     (net (code 1) (name "Net-(IC1-Pad1)")
       (node (ref IC1) (pin 1)))

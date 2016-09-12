@@ -51,7 +51,7 @@ U 1 1 5622E668
 P 1100 2750
 F 0 "BT1" H 1200 2800 50  0000 L CNN
 F 1 "Battery" H 1200 2700 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" V 1100 2790 60  0001 C CNN
+F 2 "footprints:2477Holder" V 1100 2790 60  0001 C CNN
 F 3 "" V 1100 2790 60  0000 C CNN
 	1    1100 2750
 	1    0    0    -1  
@@ -115,10 +115,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 1650 4300 1650
 $Comp
-L Crystal 8MHz1
+L Crystal 32KHz1
 U 1 1 56B6E109
 P 5200 2200
-F 0 "8MHz1" H 5200 2350 50  0000 C CNN
+F 0 "32KHz1" H 5200 2350 50  0000 C CNN
 F 1 "Crystal" H 5200 2050 50  0000 C CNN
 F 2 "footprints:2-SMD" H 5200 2200 50  0001 C CNN
 F 3 "" H 5200 2200 50  0000 C CNN
@@ -361,7 +361,7 @@ RX
 Text Label 4500 3250 0    60   ~ 0
 TX
 Wire Wire Line
-	4400 5950 5000 5950
+	3950 5950 5000 5950
 Wire Wire Line
 	4550 6550 4550 5650
 Wire Wire Line
@@ -525,4 +525,21 @@ Wire Wire Line
 	8700 2000 8700 2100
 Wire Wire Line
 	8300 2000 8300 2100
+$Comp
+L R R?
+U 1 1 57C323B4
+P 3950 6150
+F 0 "R?" V 4030 6150 50  0000 C CNN
+F 1 "R" V 3950 6150 50  0000 C CNN
+F 2 "" V 3880 6150 50  0000 C CNN
+F 3 "" H 3950 6150 50  0000 C CNN
+	1    3950 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 5950
+Wire Wire Line
+	3950 5950 3950 6000
+Wire Wire Line
+	3950 6300 3950 6400
+Connection ~ 3950 6400
 $EndSCHEMATC
