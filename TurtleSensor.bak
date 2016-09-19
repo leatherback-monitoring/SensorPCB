@@ -112,8 +112,6 @@ Wire Wire Line
 	5600 1650 5500 1650
 Wire Wire Line
 	5200 1650 5100 1650
-Wire Wire Line
-	4700 1650 4300 1650
 $Comp
 L Crystal 32KHz1
 U 1 1 56B6E109
@@ -526,10 +524,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 2000 8300 2100
 $Comp
-L R R?
+L R 2k
 U 1 1 57C323B4
 P 3950 6150
-F 0 "R?" V 4030 6150 50  0000 C CNN
+F 0 "2k" V 4030 6150 50  0000 C CNN
 F 1 "R" V 3950 6150 50  0000 C CNN
 F 2 "" V 3880 6150 50  0000 C CNN
 F 3 "" H 3950 6150 50  0000 C CNN
@@ -542,4 +540,8 @@ Wire Wire Line
 Wire Wire Line
 	3950 6300 3950 6400
 Connection ~ 3950 6400
+Wire Wire Line
+	4700 1650 4500 1650
+Text Label 4500 1650 0    60   ~ 0
+SCK
 $EndSCHEMATC
