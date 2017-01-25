@@ -1,4 +1,4 @@
-(module 2477Holder (layer F.Cu) (tedit 57A17E2B)
+(module 2477Holder (layer F.Cu) (tedit 5888EBDC)
   (fp_text reference BT1 (at 0 5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

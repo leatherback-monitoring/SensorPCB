@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/libraries/footprints.pretty")(options "")(descr ""))
   (lib (name SI7021)(type Legacy)(uri "$(KIPRJMOD)/libraries/SI7021.mod")(options "")(descr ""))
   (lib (name W25Q32FVSSIG)(type Legacy)(uri "$(KIPRJMOD)/libraries/W25Q32FVSSIG.mod")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/libraries/footprints.pretty")(options "")(descr ""))
 )
