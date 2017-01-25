@@ -3,3 +3,4 @@ gerbers/*
 libraries/KiCad/*
 3dExport/*
 shapes3D/*
+*.DS_Store
